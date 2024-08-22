@@ -22,6 +22,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- style sheet -->
     <link rel="stylesheet" href="styles.css">
+    <!-- font awasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <!-- ========================
@@ -29,7 +31,90 @@
     ========================= -->
 <body>
     <!-- header start -->
-    <header>
+    <header class="md:container mx-auto my-14">
+        <!-- navber -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="flex justify-center items-center">
+                        <div class="bg-[#ABEF5F] rounded-full text-3xl  px-3 py-1">
+                            <i class="fa-solid fa-arrow-right fa-rotate-by" style="--fa-rotate-angle: -40deg;"></i>
+                        </div>
+                        <h1 class="text-4xl font-bold ">Rinterio</h1>
+                    </div>
+                    
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>Services</a></li>
+                        <li><a>Portfolio</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact Us</a></li>
+                   </ul>
+                   
+                </div>
+                
+                
+                <div class="navbar-end space-x-3">
+                    <button class="btn btn-ghost btn-circle">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="h-5 w-5"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </button>
+                    <div class="indicator">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-5 w-5"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                    </div>
+                   <button class="btn bg-[#ABEF5F] font-extrabold ">Book Consult
+                    <div class="bg-[#000000] rounded-full text-xl text-white  px-2.5 py-1">
+                        <i class="fa-solid fa-arrow-right font-bold fa-rotate-by" style="--fa-rotate-angle: -40deg;"></i>
+                    </div>
+                   </button>
+                </div>
+            </div>
+
+        </nav>
+
+    <!-- banner section start -->
+    <div class="hero ">
+        <div class="hero-content text-center flex flex-col">
+            <div>
+                <img src="image/banner.png" alt="">
+            </div>
+            <div class="">
+
+                <h1 class="text-5xl font-bold">A barn house of this design has a <br>striking appearance</h1>
+                <p class="py-6">
+                    The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek <br> metal accents, and large windows that flood the space with natural light.
+                </p>
+                <button class="btn bg-[#ABEF5F80] font-bold  text-lg">Book Consult
+                    <div class="bg-[#ABEF5F] rounded-full text-xl text-black  px-2.5 py-1">
+                        <i class="fa-solid fa-arrow-right font-bold fa-rotate-by" style="--fa-rotate-angle: -40deg;"></i>
+                    </div>
+                   </button>
+            </div>
+        </div>
+      </div>
 
     </header>
     <!-- main start -->
@@ -38,7 +123,7 @@
     </main>
     <!-- footer start -->
     <footer>
-        
+
     </footer>
     
 </body>
