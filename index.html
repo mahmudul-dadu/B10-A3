@@ -58,11 +58,11 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a>Home</a></li>
-                        <li><a>Services</a></li>
-                        <li><a>Portfolio</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>Contact Us</a></li>
+                        <li><a class="hover:text-[#494949] text-[#737373] font-bold">Home</a></li>
+                        <li><a class="hover:text-[#494949] text-[#737373] font-bold">Services</a></li>
+                        <li><a class="hover:text-[#494949] text-[#737373] font-bold">Portfolio</a></li>
+                        <li><a class="hover:text-[#494949] text-[#737373] font-bold">Blog</a></li>
+                        <li><a class="hover:text-[#494949] text-[#737373] font-bold">Contact Us</a></li>
                    </ul>
                    
                 </div>
@@ -314,8 +314,8 @@
 
         <!-- Discuss Next Project  -->
         <section class="BG">
-            <div class="md:w-2/3 mx-auto bg-fuchsia-400">
-                <div class=" space-y-6 text-center pt-16">
+            <div class="md:w-2/3 mx-auto ">
+                <div class=" space-y-6 text-center pt-16 mb-7">
                     <button class="bg-[#ABEF5F33] flex text-[#494949] rounded-xl px-4 py-1 text-lg mx-auto font-bold ">
                         <div>
                             <i class="fa-solid fa-arrow-right fa-rotate-by" style="--fa-rotate-angle: 0deg;"></i>
@@ -328,25 +328,36 @@
                         The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.
                     </p> 
                 </div>
-                <div class="w-[100%] grid grid-cols-2">
+                <div class="w-[100%] grid lg:grid-cols-2 grid-cols-1 gap-4 ">
                     <input
                     type="text"
-                    placeholder="Type here"
-                    class="input input-bordered input-md max-w-full " />  
+                    placeholder="First Name*"
+                    class="input input-bordered rounded-full input-md max-w-full border-none " />  
                     <input
                     type="text"
-                    placeholder="Type here"
-                    class="input input-bordered input-md w-full " />
+                    placeholder="Last Name*"
+                    class="input input-bordered rounded-full input-md w-full border-none" />
                     <input
                     type="text"
-                    placeholder="Type here"
-                    class="input input-bordered input-md w-full " />
+                    placeholder="Phone Number"
+                    class="input input-bordered rounded-full input-md w-full border-none" />
                     <input
                     type="text"
-                    placeholder="Type here"
-                    class="input input-bordered input-md w-full " />
+                    placeholder="Email Number*"
+                    class="input input-bordered rounded-full input-md w-full border-none" />
+                    <!-- last box -->
+                    
                 </div>
+                <textarea class="w-full rounded-2xl p-3 mt-4 h-36 " placeholder="Write your message here"  name="" id=""></textarea>
+               
+                <button class="btn bg-[#ABEF5F] font-extrabold w-full rounded-2xl mt-2">Send Mail
+                    <div class="bg-[#000000] rounded-full text-xl text-white  px-2 py-1">
+                        <i class="fa-solid fa-arrow-right font-bold fa-rotate-by" style="--fa-rotate-angle: -40deg;"></i>
+                    </div>
+                </button>
 
+               
+               <button></button>
 
                 
                 
@@ -360,7 +371,36 @@
     </main>
     
     <!-- footer start -->
-    <footer>
+    <footer class="bg-slate-800">
+        <div class="footer footer-center bg-base-200 text-base-content rounded bg-black p-16">
+            <div class="flex justify-center items-center">
+                <div class="bg-[#ABEF5F] rounded-full text-3xl  px-3 py-1">
+                    <i class="fa-solid fa-arrow-right fa-rotate-by" style="--fa-rotate-angle: -40deg;"></i>
+                </div>
+                <h1 class="text-4xl font-bold ">Rinterio</h1>
+                
+            </div>
+            <p class="text-[#494949] font-medium lg:w-[50%]">
+                The barn house captivates with its blend of rustic charm and 
+                modern sophistication,featuring weathered wood, sleek metal accents.
+            </p> 
+            <nav class="grid lg:grid-flow-col lg:gap-32 space-y-3">
+              <a class="link link-hover text-[#E9E9E9]">Home</a>
+              <a class="link link-hover text-[#E9E9E9]">Services</a>
+              <a class="link link-hover text-[#E9E9E9]">Portfolio</a>
+              <a class="link link-hover text-[#E9E9E9]">Blogs</a>
+              <a class="link link-hover text-[#E9E9E9]">Contact Us</a>
+            </nav>
+            <button class="btn bg-[#ABEF5F] font-extrabold flex mt-5">Book Consult
+                <div class="bg-[#000000] rounded-full text-xl text-white  px-2.5 py-1">
+                    <i class="fa-solid fa-arrow-right font-bold fa-rotate-by" style="--fa-rotate-angle: -40deg;"></i>
+                </div>
+               </button>
+            
+        </div>
+
+      
+
 
     </footer>
     
